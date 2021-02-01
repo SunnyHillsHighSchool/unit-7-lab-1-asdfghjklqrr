@@ -10,6 +10,10 @@ public class ListTotal
 {
  public static int total( List<Integer> ray )
  {
-  return 0;
+    int sum = 0;
+  for(int i=0;i<List.length();i++){
+  sum+=List[i];
+ }
+  return sum;
  }
 }
